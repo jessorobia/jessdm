@@ -1076,10 +1076,9 @@ a:hover.back-to-top {
     padding-top: 11rem;
     padding-bottom: 9rem;
   }
-  @media (min-width: 412px) [ .header {
-  }
-  ]
-   /* end of header */ /* Services */ .basic-2 .text-box {
+
+  /* end of header */ /* Services */
+  .basic-2 .text-box {
     padding-right: 2.125rem;
     padding-left: 2.125rem;
   }
