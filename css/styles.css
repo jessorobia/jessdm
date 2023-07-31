@@ -147,7 +147,7 @@ a:hover {
   height: 1px;
   margin: 0;
   border: none;
-  background-color: #d3dae2;
+  background-color: #f7f9fb;
 }
 
 .btn-solid-reg {
@@ -992,21 +992,25 @@ img:nth-child(5) {
 /*     Footer     */
 /******************/
 .footer {
-  padding-top: 6.25rem;
-  padding-bottom: 2rem;
+  padding-top: 1.25rem;
+  padding-bottom: 0rem;
   /**background-color: #d97008;**/
   background: linear-gradient(
       to bottom right,
-      rgba(25, 26, 29, 0.5),
-      rgba(25, 26, 29, 0.5)
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
     ),
     url("../images/beehive1.jpg") center center no-repeat;
   background-size: cover;
-  text-align: center;
+  /**text-align: center;**/
 }
 
 .footer a {
   text-decoration: none;
+}
+
+.ftext {
+  color: #ffffff;
 }
 
 .footer .fa-stack {
@@ -1038,6 +1042,37 @@ img:nth-child(5) {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+}
+
+.cont {
+  color: #ffffff;
+}
+.cont1 {
+  color: #ffffff;
+}
+.cont1:hover {
+  color: #d97008;
+}
+
+.grid-2-clz {
+  grid-template-columns: 1fr 1fr;
+}
+.crlist {
+  margin-left: 30rem;
+  line-height: 1rem;
+}
+.listed {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.listed :last-child {
+  margin-bottom: 0rem;
+}
+.listed:hover {
+  color: #d97008;
+}
+.crlist-s {
+  color: #ffffff;
 }
 
 /*********************/
